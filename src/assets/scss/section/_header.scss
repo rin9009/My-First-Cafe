@@ -1,0 +1,35 @@
+.header__top {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background-color: var(--baseColor);
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  color: var(--fontColor);
+  margin: 0 auto;
+  padding-top: 6px;
+}
+
+.header__logo {
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+.header__user {
+  display: flex;
+}
+
+.header__user li {
+  padding-left: 10px;
+  font-size: 1.1rem;
+}
+
+.header__user li:not(:last-child):after {
+  content: '|';
+  padding-left: 10px;
+}
