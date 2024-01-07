@@ -1,11 +1,12 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+
+import { Link } from 'react-router-dom';
 
 const Logo = () => {
   return (
     <div className='header__top'>
       <div className="header__container">
-        <h1 className='header__logo'>
+        <h1>
           <a href="/">
             <span>My First Cafe</span>
           </a>
@@ -27,4 +28,4 @@ const Logo = () => {
   )
 }
 
-export default Logo
+export default Logo;

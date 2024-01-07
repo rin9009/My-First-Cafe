@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-import Header from './Header'
-import Footer from './Footer'
+import Header from './Header';
+import Footer from './Footer';
 
 const Main = (props) => {
   return (
@@ -15,4 +15,4 @@ const Main = (props) => {
   )
 }
 
-export default Main
+export default Main;
