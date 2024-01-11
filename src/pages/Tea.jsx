@@ -1,5 +1,5 @@
-import React from 'react'
-import Main from '../components/section/Main'
+import React from 'react';
+import Main from '../components/section/Main';
 
 const Tea = () => {
   return (
@@ -9,4 +9,4 @@ const Tea = () => {
   )
 }
 
-export default Tea
+export default Tea;

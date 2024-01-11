@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 const Logo = () => {
   return (
     <div className='header__top'>
-      <div className="header__container">
+      <div className='header__container'>
         <h1>
-          <a href="/">
+          <a href='/'>
             <span>My First Cafe</span>
           </a>
         </h1>

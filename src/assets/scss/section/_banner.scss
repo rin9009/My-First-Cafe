@@ -1,8 +1,9 @@
 .main__banner {
   display: flex;
   width: 100%;
-  height: 550px;
+  height: 650px;
   background-color: var(--bannerColor);
+  margin-bottom: 100px;
 
   .banner__container {
     display: flex;
@@ -41,34 +42,75 @@
       margin-right: 150px;
       img {
         width: 300px;
-        filter: drop-shadow(-1px 10px 1px rgba(0, 0, 0, 0.16))
+        filter: drop-shadow(-1px 10px 1px rgba(0, 0, 0, 0.16));
       }
     }
 
-    .banner__button {
+    .arrow__button {
       display: flex;
 
       .left__button {
         position: absolute;
         left: 0;
+        bottom: 245px;
 
         button {
-          font-size: 45px;
+          font-size: 80px;
           background-color: transparent;
           color: var(--white);
-          font-weight: 900;
+          cursor: pointer;
+
+          &:hover {
+            transform:scale(1.2);
+            transition: transform .7s; 
+          }
         }
       }
 
       .right__button {
         position: absolute;
         right: 0;
+        bottom: 245px;
 
         button {
-          font-size: 45px;
+          font-size: 80px;
           background-color: transparent;
           color: var(--white);
-          font-weight: 900;
+          cursor: pointer;
+
+          &:hover {
+            transform:scale(1.2);
+            transition: transform .7s; 
+          }
+        }
+      }
+    }
+
+    .banner__button {
+      display: flex;
+      position: absolute;
+      left: 573px;
+      bottom: 40px;
+
+      button {
+        width: 13px;
+        height: 13px;
+        border: 3px solid var(--white);
+        border-radius: 50%;
+        background-color: transparent;
+        cursor: pointer;
+
+        &:not(:last-child) {
+          margin-right: 7px;
+        }
+
+        &.full {
+          background-color: var(--white);
+        }
+
+        &:hover {
+          transform:scale(1.2);
+          transition: transform .7s; 
         }
       }
     }

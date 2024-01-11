@@ -1,5 +1,5 @@
-import React from 'react'
-import Main from '../components/section/Main'
+import React from 'react';
+import Main from '../components/section/Main';
 
 const Signup = () => {
   return (
@@ -9,4 +9,4 @@ const Signup = () => {
   )
 }
 
-export default Signup
+export default Signup;

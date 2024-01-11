@@ -1,5 +1,5 @@
-import React from 'react'
-import Main from '../components/section/Main'
+import React from 'react';
+import Main from '../components/section/Main';
 
 const Login = () => {
   return (
@@ -9,4 +9,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default Login;

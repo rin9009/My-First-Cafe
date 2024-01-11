@@ -1,12 +1,12 @@
 import React from 'react';
 import Main from '../components/section/Main';
 
-const Dessert = () => {
+const Category = () => {
   return (
     <Main>
-      Dessert
+      Category
     </Main>
   )
 }
 
-export default Dessert;
+export default Category;

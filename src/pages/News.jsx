@@ -1,5 +1,5 @@
-import React from 'react'
-import Main from '../components/section/Main'
+import React from 'react';
+import Main from '../components/section/Main';
 
 const News = () => {
   return (
@@ -9,4 +9,4 @@ const News = () => {
   )
 }
 
-export default News
+export default News;
